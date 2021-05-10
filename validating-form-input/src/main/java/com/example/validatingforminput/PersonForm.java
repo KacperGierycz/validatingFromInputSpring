@@ -8,17 +8,17 @@ public class PersonForm {
 	
 	@NotNull
 	@Size(min=2, max=30)
-	private Integer name;
+	private String name;
 	
 	@NotNull
 	@Min(18)
 	private Integer age;
 
-	public Integer getName() {
+	public String getName() {
 		return name;
 	}
 
-	public void setName(Integer name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
